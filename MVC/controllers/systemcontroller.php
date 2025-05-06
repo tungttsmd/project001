@@ -1,10 +1,12 @@
 <?php
-class systemcontroller {
-    public function index(){
-        include 'views/system/index.php';
+class systemcontroller extends controller
+{
+    public function index()
+    {
+        $this->render('index', ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo']);
     }
-    public function _404(){
-        include 'views/system/_404.php';
+    public function _404()
+    {
+        $this->render('_404', [], '0');
     }
-
 }

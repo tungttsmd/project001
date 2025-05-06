@@ -1,38 +1,27 @@
 <?php
-$controllername = $_GET['controller'] ?? 'systemcontroller';
+
+include_once 'controllers/controller.php'; # <--- include vào, chưa include sẽ lỗi không tìm thấy file controller.php để kế thừa
+
+$controller = ($_GET['controller'] ?? 'system') . "controller";
 $action = $_GET['action'] ?? 'index';
 
-$flag = true;
-$msg = '';
+$path = "controllers/$controller.php";
 
-# Case module: nhập query string thiếu
-if ($flag && (empty($controllername) || empty($action))) {
-    $flag = false;
-    $msg = "Query string không đầy đủ";
-}
-
-# Case module: query string controller không tồn tại, không đưa tới đâu cả
-if ($flag && !file_exists('controllers/' . $controllername . '.php')) {
-    $flag = false;
-    $msg = "Controller không tồn tại";
-}
-
-# Case module: query string action đưa controller tới action không tồn tại
-if ($flag && file_exists("controllers/$controllername.php")) {
-    include_once "controllers/$controllername.php";
-    if (!method_exists($controllername, $action)) {
-        $flag = false;
-        $msg = "Action không tồn tại";
+if (file_exists($path)) {
+    include_once $path;
+    $instance = new $controller();
+    if (method_exists($instance, $action)) {
+        $instance->$action();
+    } else {
+        page404(); 
     }
+} else {
+    page404();
 }
 
-# Kết quả: trả về trang 404
-if (!$flag) {
-    $controllername = "systemcontroller";
-    $action = "_404";
+function page404()
+{
+    include_once 'controllers/systemcontroller.php';
+    $instance = new systemcontroller();
+    $instance->_404();
 }
-
-include_once "controllers/$controllername.php";
-
-$controller = new $controllername();
-$controller->$action();
