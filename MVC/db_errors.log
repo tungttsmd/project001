@@ -1,0 +1,575 @@
+[07-May-2025 08:08:47 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "DBCRUD" not found in E:\_special\WAMP64\www\001\MVC\models\Admin.php:2
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\system\autoload.php(22): include()
+#1 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(42): {closure}('Admin')
+#2 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->list()
+#3 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\Admin.php on line 2
+[07-May-2025 08:44:05 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "DBCRUD" not found in E:\_special\WAMP64\www\001\MVC\models\Admin.php:2
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\system\autoload.php(22): include()
+#1 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(42): {closure}('Admin')
+#2 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->list()
+#3 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\Admin.php on line 2
+[07-May-2025 08:45:31 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "DBCRUD" not found in E:\_special\WAMP64\www\001\MVC\models\Admin.php:2
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\system\autoload.php(23): include()
+#1 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(42): {closure}('Admin')
+#2 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->list()
+#3 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\Admin.php on line 2
+[07-May-2025 08:45:44 Asia/Ho_Chi_Minh] PHP Warning:  include(pages/admin/list.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 45
+[07-May-2025 08:45:44 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 08:45:44 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 08:45:44 Asia/Ho_Chi_Minh] PHP   2. admincontroller->list() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 08:45:44 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'pages/admin/list.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 45
+[07-May-2025 08:45:44 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 08:45:44 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 08:45:44 Asia/Ho_Chi_Minh] PHP   2. admincontroller->list() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 08:46:21 Asia/Ho_Chi_Minh] PHP Warning:  include(pages/admin/list.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 45
+[07-May-2025 08:46:21 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 08:46:21 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 08:46:21 Asia/Ho_Chi_Minh] PHP   2. admincontroller->list() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 08:46:21 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'pages/admin/list.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 45
+[07-May-2025 08:46:21 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 08:46:21 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 08:46:21 Asia/Ho_Chi_Minh] PHP   2. admincontroller->list() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 08:47:30 Asia/Ho_Chi_Minh] PHP Warning:  include(pages/layouts/layout-0.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 24
+[07-May-2025 08:47:30 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 08:47:30 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 08:47:30 Asia/Ho_Chi_Minh] PHP   2. admincontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 08:47:30 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'pages/layouts/layout-0.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 24
+[07-May-2025 08:47:30 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 08:47:30 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 08:47:30 Asia/Ho_Chi_Minh] PHP   2. admincontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 08:48:53 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token "->", expecting ";" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 34
+[07-May-2025 08:55:48 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token "->" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 34
+[07-May-2025 08:55:53 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token "->" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 34
+[07-May-2025 08:55:54 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token "->" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 34
+[07-May-2025 08:55:56 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token "->" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 34
+[07-May-2025 08:56:35 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type Admin as array in E:\_special\WAMP64\www\001\MVC\views\admin\list.php:42
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php(261): include()
+#1 E:\_special\WAMP64\www\001\MVC\controllers\controller.php(8): include('E:\\_special\\WAM...')
+#2 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(35): controller->render('admin/list', Array)
+#3 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->list()
+#4 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\views\admin\list.php on line 42
+[07-May-2025 08:56:49 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type Admin as array in E:\_special\WAMP64\www\001\MVC\views\admin\list.php:42
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php(261): include()
+#1 E:\_special\WAMP64\www\001\MVC\controllers\controller.php(8): include('E:\\_special\\WAM...')
+#2 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(36): controller->render('admin/list', Array)
+#3 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->list()
+#4 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\views\admin\list.php on line 42
+[07-May-2025 09:00:00 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ScamChecker::baoCao(), 0 passed in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 40 and exactly 1 expected in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php:31
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(40): ScamChecker->baoCao()
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocao()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php on line 31
+[07-May-2025 09:01:00 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ScamChecker::baoCao(), 0 passed in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 41 and exactly 1 expected in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php:31
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(41): ScamChecker->baoCao()
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocao()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php on line 31
+[07-May-2025 09:01:03 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ScamChecker::baoCao(), 0 passed in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 41 and exactly 1 expected in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php:31
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(41): ScamChecker->baoCao()
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocao()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php on line 31
+[07-May-2025 09:01:53 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ScamChecker::baoCao(), 0 passed in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 47 and exactly 1 expected in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php:31
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(47): ScamChecker->baoCao()
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocao()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php on line 31
+[07-May-2025 11:35:06 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ScamChecker::baoCao(), 0 passed in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 47 and exactly 1 expected in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php:31
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(47): ScamChecker->baoCao()
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocao()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php on line 31
+[07-May-2025 11:35:47 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ScamChecker::baoCao(), 0 passed in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 47 and exactly 1 expected in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php:31
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(47): ScamChecker->baoCao()
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocao()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php on line 31
+[07-May-2025 11:38:07 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function admincontroller::tocao(), 0 passed in E:\_special\WAMP64\www\001\MVC\index.php on line 13 and exactly 1 expected in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:37
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocao()
+#1 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 37
+[07-May-2025 11:40:48 Asia/Ho_Chi_Minh] PHP Fatal error:  Cannot redeclare admincontroller::tocao() in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 43
+[07-May-2025 11:40:48 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:40:48 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:40:48 Asia/Ho_Chi_Minh] PHP   2. {closure:E:\_special\WAMP64\www\001\MVC\system\autoload.php:11-28}($classNameWillBeReturnedHere = 'admincontroller') E:\_special\WAMP64\www\001\MVC\index.php:11
+[07-May-2025 11:50:48 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:50:48 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:50:48 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:50:48 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:50:48 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:50:48 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:50:48 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:50:48 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:50:48 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:50:48 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:50:48 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:50:48 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:50:51 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:50:51 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:50:51 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:50:51 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:50:51 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:50:51 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:50:51 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:50:51 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:50:51 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:50:51 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:50:51 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:50:51 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:50:53 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:50:53 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:50:53 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:50:53 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:50:53 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:50:53 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:50:53 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:50:53 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:50:53 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:50:53 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:50:53 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:50:53 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:51:46 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:51:46 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:51:46 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:51:46 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:51:46 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:51:46 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:51:46 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:51:46 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:51:46 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:51:46 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:51:46 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:51:46 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:51:52 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:51:52 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:51:52 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:51:52 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:51:52 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:51:52 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:51:52 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:51:52 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:51:52 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:51:52 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:51:52 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:51:52 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:52:02 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:52:02 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:52:02 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:52:02 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:52:02 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:52:02 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:52:02 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:52:02 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:52:02 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:52:02 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:52:02 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:52:02 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:58:36 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:58:36 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:58:36 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:58:36 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:58:36 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:58:36 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:58:36 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 11:58:36 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:58:36 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:58:36 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:58:36 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 11:58:36 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 11:58:56 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $form_submit in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 62
+[07-May-2025 11:58:56 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 11:58:56 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 11:58:56 Asia/Ho_Chi_Minh] PHP   2. admincontroller->tocaopost() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 11:58:56 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: ScamChecker::baoCao(): Argument #1 ($doituong) must be of type DoiTuong, null given, called in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 62 and defined in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php:31
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(62): ScamChecker->baoCao(NULL)
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocaopost()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php on line 31
+[07-May-2025 12:00:50 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $form_submit in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 62
+[07-May-2025 12:00:50 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:00:50 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:00:50 Asia/Ho_Chi_Minh] PHP   2. admincontroller->tocaopost() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:00:50 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: ScamChecker::baoCao(): Argument #1 ($doituong) must be of type DoiTuong, null given, called in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 62 and defined in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php:31
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(62): ScamChecker->baoCao(NULL)
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocaopost()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php on line 31
+[07-May-2025 12:01:36 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $form_submit in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 62
+[07-May-2025 12:01:36 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:01:36 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:01:36 Asia/Ho_Chi_Minh] PHP   2. admincontroller->tocaopost() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:01:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: ScamChecker::baoCao(): Argument #1 ($doituong) must be of type DoiTuong, null given, called in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 62 and defined in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php:31
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(62): ScamChecker->baoCao(NULL)
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocaopost()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php on line 31
+[07-May-2025 12:03:02 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "button" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 40
+[07-May-2025 12:03:02 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:03:02 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:03:02 Asia/Ho_Chi_Minh] PHP   2. admincontroller->tocao() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:03:44 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Mi" not found in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php:45
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(50): ScamChecker->baoCao(Object(DoiTuong))
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocao()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php on line 45
+[07-May-2025 12:04:04 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Mi" not found in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php:45
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(50): ScamChecker->baoCao(Object(DoiTuong))
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocao()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php on line 45
+[07-May-2025 12:04:25 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Mi" not found in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php:45
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(50): ScamChecker->baoCao(Object(DoiTuong))
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocao()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php on line 45
+[07-May-2025 12:04:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Mi" not found in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php:45
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(50): ScamChecker->baoCao(Object(DoiTuong))
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->tocao()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\ScamChecker.php on line 45
+[07-May-2025 12:06:19 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:06:19 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:06:19 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:06:19 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:06:19 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:06:19 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:06:19 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:06:19 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:06:19 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:06:19 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:06:19 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:06:19 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:06:25 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:06:25 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:06:25 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:06:25 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:06:25 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:06:25 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:06:25 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:06:25 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:06:25 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:06:25 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:06:25 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:06:25 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:08:12 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token "isset", expecting "(" in E:\_special\WAMP64\www\001\MVC\views\scammers\baocao.php on line 30
+[07-May-2025 12:10:00 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "anti-reload" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 40
+[07-May-2025 12:10:00 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:10:00 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:10:00 Asia/Ho_Chi_Minh] PHP   2. admincontroller->tocao() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:27:47 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:27:47 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:27:47 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:27:47 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:27:47 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:27:47 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:27:47 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:27:47 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:27:47 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:27:47 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:27:47 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:27:47 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:28:35 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:28:35 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:28:35 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:28:35 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:28:35 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:28:35 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:28:35 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:28:35 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:28:35 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:28:35 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:28:35 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:28:35 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:28:38 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:28:38 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:28:38 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:28:38 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:28:38 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:28:38 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:28:38 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:28:38 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:28:38 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:28:38 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:28:38 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:28:38 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:29:02 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:29:02 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:29:02 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:29:02 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:29:02 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:29:02 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:29:02 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:29:02 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:29:02 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:29:02 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:29:02 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:29:02 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:29:25 Asia/Ho_Chi_Minh] PHP Warning:  include(views/index.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:29:25 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:29:25 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:29:25 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:29:25 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:29:25 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:29:25 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/index.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 261
+[07-May-2025 12:29:25 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:29:25 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:29:25 Asia/Ho_Chi_Minh] PHP   2. systemcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:29:25 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'index', $render_data = ['content' => 'Xin chào Lệ rơi', 'alert' => 'Tuyệt cú mèo'], $flash_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\systemcontroller.php:6
+[07-May-2025 12:29:25 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:37:15 Asia/Ho_Chi_Minh] PHP Fatal error:  Cannot redeclare page404() (previously declared in E:\_special\WAMP64\www\001\MVC\index.php:21) in E:\_special\WAMP64\www\001\MVC\core\core.php on line 3
+[07-May-2025 12:37:15 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:37:15 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:37:15 Asia/Ho_Chi_Minh] PHP   2. include_once() E:\_special\WAMP64\www\001\MVC\index.php:3
+[07-May-2025 12:42:35 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected double-quoted string ">Trang chủ</a></li>", expecting "," or ";" in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php on line 236
+[07-May-2025 12:44:29 Asia/Ho_Chi_Minh] PHP Fatal error:  Cannot redeclare entryLog() (previously declared in E:\_special\WAMP64\www\001\MVC\libs\lib.php:4) in E:\_special\WAMP64\www\001\MVC\libs\lib.php on line 4
+[07-May-2025 12:44:29 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:44:29 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:44:29 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:44:29 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'scammers/kiemtra', $flash_data = ['pageTitle' => 'Tra cứu'], $render_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:44
+[07-May-2025 12:44:29 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:44:29 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:261
+[07-May-2025 12:45:03 Asia/Ho_Chi_Minh] PHP Fatal error:  Cannot redeclare betterEmpty() (previously declared in E:\_special\WAMP64\www\001\MVC\libs\lib.php:7) in E:\_special\WAMP64\www\001\MVC\libs\lib.php on line 7
+[07-May-2025 12:45:03 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:45:03 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:45:03 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:45:03 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'scammers/kiemtra', $flash_data = ['pageTitle' => 'Tra cứu'], $render_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:44
+[07-May-2025 12:45:03 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:45:03 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:261
+[07-May-2025 12:46:26 Asia/Ho_Chi_Minh] PHP Fatal error:  Cannot redeclare entryLog() (previously declared in E:\_special\WAMP64\www\001\MVC\libs\lib.php:4) in E:\_special\WAMP64\www\001\MVC\libs\lib.php on line 4
+[07-May-2025 12:46:26 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:46:26 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:46:26 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:46:26 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'scammers/kiemtra', $flash_data = ['pageTitle' => 'Tra cứu'], $render_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:44
+[07-May-2025 12:46:26 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:46:26 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:261
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "is_confirm" in E:\_special\WAMP64\www\001\MVC\views\scammers\kiemtra.php on line 69
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'scammers/kiemtra', $flash_data = ['pageTitle' => 'Tra cứu'], $render_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:44
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:261
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "is_confirm" in E:\_special\WAMP64\www\001\MVC\views\scammers\kiemtra.php on line 69
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'scammers/kiemtra', $flash_data = ['pageTitle' => 'Tra cứu'], $render_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:44
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:261
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "is_confirm" in E:\_special\WAMP64\www\001\MVC\views\scammers\kiemtra.php on line 69
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'scammers/kiemtra', $flash_data = ['pageTitle' => 'Tra cứu'], $render_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:44
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:261
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "is_confirm" in E:\_special\WAMP64\www\001\MVC\views\scammers\kiemtra.php on line 69
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'scammers/kiemtra', $flash_data = ['pageTitle' => 'Tra cứu'], $render_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:44
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:261
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "is_confirm" in E:\_special\WAMP64\www\001\MVC\views\scammers\kiemtra.php on line 69
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'scammers/kiemtra', $flash_data = ['pageTitle' => 'Tra cứu'], $render_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:44
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:261
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "is_confirm" in E:\_special\WAMP64\www\001\MVC\views\scammers\kiemtra.php on line 69
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'scammers/kiemtra', $flash_data = ['pageTitle' => 'Tra cứu'], $render_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:44
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:261
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "is_confirm" in E:\_special\WAMP64\www\001\MVC\views\scammers\kiemtra.php on line 69
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'scammers/kiemtra', $flash_data = ['pageTitle' => 'Tra cứu'], $render_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:44
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:261
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "is_confirm" in E:\_special\WAMP64\www\001\MVC\views\scammers\kiemtra.php on line 69
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'scammers/kiemtra', $flash_data = ['pageTitle' => 'Tra cứu'], $render_data = *uninitialized*, $render_layout = *uninitialized*) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:44
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:10
+[07-May-2025 12:47:33 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:261
+[07-May-2025 12:50:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "query" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 49
+[07-May-2025 12:50:04 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:50:04 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:50:04 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:50:13 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "queries" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 49
+[07-May-2025 12:50:13 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:50:13 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:50:13 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:50:15 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "queries" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 49
+[07-May-2025 12:50:15 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:50:15 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:50:15 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:51:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "result" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 48
+[07-May-2025 12:51:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:51:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:51:22 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:51:22 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 48
+[07-May-2025 12:51:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:51:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:51:22 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:51:22 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 48
+[07-May-2025 12:51:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:51:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:51:22 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:51:22 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: controller::render(): Argument #3 ($render_data) must be of type array, null given, called in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 50 and defined in E:\_special\WAMP64\www\001\MVC\controllers\controller.php:4
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(50): controller->render('scammers/kiemtr...', Array, NULL)
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->kiemtra()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\controller.php on line 4
+[07-May-2025 12:51:27 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "result" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 48
+[07-May-2025 12:51:27 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:51:27 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:51:27 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:51:27 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 48
+[07-May-2025 12:51:27 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:51:27 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:51:27 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:51:27 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 48
+[07-May-2025 12:51:27 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:51:27 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:51:27 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:51:27 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: controller::render(): Argument #3 ($render_data) must be of type array, null given, called in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 50 and defined in E:\_special\WAMP64\www\001\MVC\controllers\controller.php:4
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(50): controller->render('scammers/kiemtr...', Array, NULL)
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->kiemtra()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\controller.php on line 4
+[07-May-2025 12:51:53 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "result" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 49
+[07-May-2025 12:51:53 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:51:53 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:51:53 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:51:53 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 49
+[07-May-2025 12:51:53 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:51:53 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:51:53 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:51:53 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 49
+[07-May-2025 12:51:53 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:51:53 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:51:53 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:51:53 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: controller::render(): Argument #3 ($render_data) must be of type array, null given, called in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 51 and defined in E:\_special\WAMP64\www\001\MVC\controllers\controller.php:4
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(51): controller->render('scammers/kiemtr...', Array, NULL)
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->kiemtra()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\controller.php on line 4
+[07-May-2025 12:52:32 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "result" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 49
+[07-May-2025 12:52:32 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:52:32 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:52:32 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:52:32 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 49
+[07-May-2025 12:52:32 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:52:32 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:52:32 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:52:32 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 49
+[07-May-2025 12:52:32 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 12:52:32 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 12:52:32 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 12:52:32 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: controller::render(): Argument #3 ($render_data) must be of type array, null given, called in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 51 and defined in E:\_special\WAMP64\www\001\MVC\controllers\controller.php:4
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(51): controller->render('scammers/kiemtr...', Array, NULL)
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->kiemtra()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\controller.php on line 4
+[07-May-2025 12:55:16 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:48
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->kiemtra()
+#1 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 48
+[07-May-2025 12:55:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:48
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->kiemtra()
+#1 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 48
+[07-May-2025 13:40:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $data in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 50
+[07-May-2025 13:40:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 13:40:39 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 13:40:39 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 13:40:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: controller::render(): Argument #3 ($render_data) must be of type array, null given, called in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 50 and defined in E:\_special\WAMP64\www\001\MVC\controllers\controller.php:4
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(50): controller->render('scammers/kiemtr...', Array, NULL)
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->kiemtra()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\controller.php on line 4
+[07-May-2025 13:40:50 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $data in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 50
+[07-May-2025 13:40:50 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 13:40:50 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 13:40:50 Asia/Ho_Chi_Minh] PHP   2. admincontroller->kiemtra() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 13:40:50 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: controller::render(): Argument #3 ($render_data) must be of type array, null given, called in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 50 and defined in E:\_special\WAMP64\www\001\MVC\controllers\controller.php:4
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(50): controller->render('scammers/kiemtr...', Array, NULL)
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): admincontroller->kiemtra()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\controller.php on line 4
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in E:\_special\WAMP64\www\001\MVC\controllers\controller.php on line 9
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP   2. admincontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/index', $render_data = ['pageTitle' => 'Trang chủ'], $render_layout = []) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:7
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP Warning:  include(views/layouts/layout-Array.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\controllers\controller.php on line 9
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP   2. admincontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/index', $render_data = ['pageTitle' => 'Trang chủ'], $render_layout = []) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:7
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'views/layouts/layout-Array.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\controllers\controller.php on line 9
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP   2. admincontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 20:12:14 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/index', $render_data = ['pageTitle' => 'Trang chủ'], $render_layout = []) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:7
+[07-May-2025 20:26:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "clientcontroller" not found in E:\_special\WAMP64\www\001\MVC\index.php:11
+Stack trace:
+#0 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\index.php on line 11
+[07-May-2025 20:27:16 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: controller::render(): Argument #2 ($render_data) must be of type array, int given, called in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 6 and defined in E:\_special\WAMP64\www\001\MVC\controllers\controller.php:4
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php(6): controller->render('client/index', 0)
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): clientcontroller->index()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\controller.php on line 4
+[07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP Warning:  include(widgets/widget-meta.php): Failed to open stream: No such file or directory in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-0.php on line 3
+[07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = [], $render_layout = 0) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:6
+[07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP Warning:  include(): Failed opening 'widgets/widget-meta.php' for inclusion (include_path='.;C:\php\pear') in E:\_special\WAMP64\www\001\MVC\views\layouts\layout-0.php on line 3
+[07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP Stack trace:
+[07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = [], $render_layout = 0) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:6
+[07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9

@@ -1,21 +1,3 @@
-<?php
-$_POST['button'] = $_POST['button'] ?? null;
-if ($_SERVER['REQUEST_METHOD'] === "POST" && $_POST['button'] === 'submit-scammers-kiemtra') {
-    include 'libs/lib.php';
-    include 'middleware/Mi.php';
-    include 'system/config/config.php';
-    include 'system/database/DBConnection.php';
-    include 'system/database/DBQuery.php';
-    include 'system/database/DBEscape.php';
-    include 'system/database/DBStatement.php';
-    include 'system/database/DBCRUD.php';
-    include 'data/DoiTuong.php';
-    include 'data/ScamChecker.php';
-    $model = new ScamChecker();
-    $form_submit = new DoiTuong($_POST['box-kiemtra']);
-    $_POST['result'] = $model->kiemTraTen($form_submit);
-}
-?>
 <style>
     #flex-form {
         display: flex;
@@ -76,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST" && $_POST['button'] === 'submit-scamme
                         <td><?= $value['account_bank'] ?></td>
                         <td><?= $value['scammer_facebook'] ?></td>
                         <td><?= $value['scammer_note'] ?></td>
-                        <td><?= (is_null($value['is_confirm'])) ? 'Đang chờ duyệt' : 'Đã xem xét' ?></td>
+                        <td><?= (is_null($value['is_confirm'] ?? null)) ? 'Đang chờ duyệt' : 'Đã xem xét' ?></td>
                     </tr>
             <?php
                 }

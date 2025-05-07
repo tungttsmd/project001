@@ -63,6 +63,7 @@
         </thead>
         <tbody>
             <?php
+            var_dump($data['0']);
             if (isset($_POST['result']['data']['status']) && $_POST['result']['data']['status'] === 'success') {
                 foreach ($_POST['result']['data']['query'] as $value) {
             ?>

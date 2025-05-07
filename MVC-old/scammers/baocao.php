@@ -1,30 +1,3 @@
-<?php
-$_POST['button'] = $_POST['button'] ?? null;
-if ($_SERVER['REQUEST_METHOD'] === "POST" && $_POST['button'] === 'submit-scammers-baocao') {
-  include 'libs/lib.php';
-  include 'middleware/Mi.php';
-  include 'system/config/config.php';
-  include 'system/database/DBConnection.php';
-  include 'system/database/DBQuery.php';
-  include 'system/database/DBEscape.php';
-  include 'system/database/DBStatement.php';
-  include 'system/database/DBCRUD.php';
-  include 'data/DoiTuong.php';
-  include 'data/ScamChecker.php';
-  $model = new ScamChecker();
-  $form_submit = new DoiTuong(
-    $_POST['account_name'],
-    $_POST['account_number'],
-    $_POST['account_bank'],
-    $_POST['account_facebook'],
-    $_POST['account_note'],
-  );
-  $_POST['result'] = $model->baoCao(
-    $form_submit
-  );
-}
-
-?>
 <style>
   #flex-form {
     display: flex;
@@ -41,12 +14,24 @@ if ($_SERVER['REQUEST_METHOD'] === "POST" && $_POST['button'] === 'submit-scamme
   #flex-form button {
     padding: 10px 20px;
   }
+
+  .alert-mini {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.75rem;
+    margin: 0.5rem 0;
+    display: inline-block;
+  }
 </style>
 
 <body>
   <form method="POST">
     <div id="flex-form">
       <h3>Báo cáo lừa đảo online</h3>
+      <?php if (isset($msg)) { ?>
+      <div class="alert alert-<?= $color ?? 'warning' ?> alert-mini" role="alert">
+        <?= $msg ?? '' ?>
+      </div>
+      <?php } ?>
       <input type="text" name="account_name" placeholder="Tên người bị tố cáo" />
       <input
         type="text"
@@ -56,7 +41,8 @@ if ($_SERVER['REQUEST_METHOD'] === "POST" && $_POST['button'] === 'submit-scamme
       <input type="text" name="account_facebook" placeholder="Tên ngân hàng" />
       <textarea name="account_note" placeholder="Nội dung tố cáo"></textarea>
       <button type="submit" name="button" value="submit-scammers-baocao">Gửi duyệt scam</button>
-      <a href="?folder=scammers&file=kiemtra"><button type="button" style="width: 100%;">Kiểm tra scam</button></a>
+      <a href=""><button type="button" style="width: 100%;">Kiểm tra scam</button></a>
     </div>
+
   </form>
 </body>

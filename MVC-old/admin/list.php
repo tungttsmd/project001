@@ -39,8 +39,8 @@
     </thead>
     <tbody>
         <?php
-        if (isset($_POST['result'])) {
-            foreach ($_POST['result'] as $value) {
+        if (isset($data)) {
+            foreach ($data as $value) {
         ?>
                 <tr>
                     <td><?= $value['id'] ?></td>

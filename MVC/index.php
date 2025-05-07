@@ -18,8 +18,4 @@ if (file_exists($path)) {
     page404();
 }
 
-function page404()
-{
-    $instance = new systemcontroller();
-    $instance->_404();
-}
+

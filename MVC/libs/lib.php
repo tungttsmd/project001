@@ -100,3 +100,8 @@ function betterPath($fromDir = __FILE__, $backwardDir = 0, $type = 'wp_include')
             return null;
     }
 }
+
+# mvchref
+function mvchref($controller, $action){
+    return DOMAIN."?controller=$controller&action=$action";
+}
