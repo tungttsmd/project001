@@ -4,20 +4,23 @@ class DoiTuong
     private $name;
     private $number;
     private $bank;
-    private $facebook;
     private $note;
+    private $reporter_name;
+    private $reporter_contact;
     function __construct(
         $account_name = null,
         $account_number = null,
         $account_bank = null,
-        $account_facebook = null,
-        $account_note = null
+        $account_note = null,
+        $reporter_name = null,
+        $reporter_contact = null,
     ) {
         $this->name = $account_name;
         $this->number = $account_number;
         $this->bank = $account_bank;
-        $this->facebook = $account_facebook;
         $this->note = $account_note;
+        $this->reporter_name = $reporter_name;
+        $this->reporter_contact = $reporter_contact;
     }
     public function name()
     {
@@ -31,12 +34,16 @@ class DoiTuong
     {
         return $this->bank;
     }
-    public function facebook()
-    {
-        return $this->facebook;
-    }
     public function note()
     {
         return $this->note;
+    }
+    public function reporterContact()
+    {
+        return $this->reporter_contact;
+    }
+    public function reporterName()
+    {
+        return $this->reporter_name;
     }
 }

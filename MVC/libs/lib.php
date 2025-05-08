@@ -41,17 +41,17 @@ function betterEmpty_list(object|array $list): bool
 }
 
 # Hàm chuyển toàn bộ dữ liệu mix thành StdClass (lớp giả)
-function betterStd($mixList)
+function oopstd($mixList)
 {
     if (is_array($mixList)) {
         $object = new stdClass();
         foreach ($mixList as $key => $value) {
-            $object->$key = betterStd($value);
+            $object->$key = oopstd($value);
         }
         return $object;
     } elseif (is_object($mixList)) {
         foreach ($mixList as $key => $value) {
-            $mixList->$key = betterStd($value);
+            $mixList->$key = oopstd($value);
         }
         return $mixList;
     } else {
@@ -102,6 +102,19 @@ function betterPath($fromDir = __FILE__, $backwardDir = 0, $type = 'wp_include')
 }
 
 # mvchref
-function mvchref($controller, $action){
-    return DOMAIN."?controller=$controller&action=$action";
+function mvchref(string $controller, string $action, string $mergeString = ''): string
+{
+    return DOMAIN . "?controller=$controller&action=$action$mergeString";
+}
+
+function oopunset(object $mixList, $unsetKeys)
+{
+    $keys = is_array($unsetKeys) ? $unsetKeys : [$unsetKeys];
+
+    foreach ($keys as $key) {
+        if (property_exists($mixList, $key)) {
+            unset($mixList->$key);
+        }
+    }
+    return $mixList;
 }

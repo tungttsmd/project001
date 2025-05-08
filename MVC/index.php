@@ -1,5 +1,4 @@
 <?php
-
 include_once 'system/autoload.php';
 
 $controller = ($_GET['controller'] ?? 'system') . "controller";

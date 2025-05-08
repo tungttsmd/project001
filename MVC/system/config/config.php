@@ -11,5 +11,11 @@ define('DB_PASS', '');
 define('DB_NAME', '001');
 define('CONFIG_TIME_ZONE', 'Asia/Ho_Chi_Minh');
 define('DOMAIN', 'http://localhost/001/MVC/');
+
 # timezone
 date_default_timezone_set(CONFIG_TIME_ZONE); // Đặt múi giờ VN
+
+# session
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}

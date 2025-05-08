@@ -573,3 +573,199 @@ Stack trace:
 [07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
 [07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = [], $render_layout = 0) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:6
 [07-May-2025 20:30:07 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 09:38:02 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "button" in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 6
+[08-May-2025 09:38:02 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 09:38:02 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 09:38:02 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 09:38:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "button" in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 6
+[08-May-2025 09:38:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 09:38:39 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 09:38:39 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 09:38:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "button" in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 6
+[08-May-2025 09:38:41 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 09:38:41 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 09:38:41 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 09:39:57 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "button" in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 6
+[08-May-2025 09:39:57 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 09:39:57 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 09:39:57 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 09:46:17 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 11
+[08-May-2025 09:46:17 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 09:46:17 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 09:46:17 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 09:47:16 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "data" on array in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 11
+[08-May-2025 09:47:16 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 09:47:16 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 09:47:16 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 09:50:34 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "data" on string in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 12
+[08-May-2025 09:50:34 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 09:50:34 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 09:50:34 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 09:50:34 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "query" on null in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 12
+[08-May-2025 09:50:34 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 09:50:34 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 09:50:34 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:05:21 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in E:\_special\WAMP64\www\001\MVC\views\client\index.php:176
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php(32): include()
+#1 E:\_special\WAMP64\www\001\MVC\controllers\controller.php(9): include('E:\\_special\\WAM...')
+#2 E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php(16): controller->render('client/index', Array, 2)
+#3 E:\_special\WAMP64\www\001\MVC\index.php(13): clientcontroller->index()
+#4 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 176
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$is_confirm in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 222
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = ['data' => class stdClass { public $0 = class stdClass { ... }; public $1 = class stdClass { ... }; public $2 = class stdClass { ... }; public $3 = class stdClass { ... }; public $4 = class stdClass { ... }; public $5 = class stdClass { ... }; public $6 = class stdClass { ... }; public $7 = class stdClass { ... }; public $8 = class stdClass { ... }; public $9 = class stdClass { ... }; public $10 = class stdClass { ... }; public $11 = class stdClass { ... }; public $12 = class stdClass { ... } }], $render_layout = 2) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php:32
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$is_confirm in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 222
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = ['data' => class stdClass { public $0 = class stdClass { ... }; public $1 = class stdClass { ... }; public $2 = class stdClass { ... }; public $3 = class stdClass { ... }; public $4 = class stdClass { ... }; public $5 = class stdClass { ... }; public $6 = class stdClass { ... }; public $7 = class stdClass { ... }; public $8 = class stdClass { ... }; public $9 = class stdClass { ... }; public $10 = class stdClass { ... }; public $11 = class stdClass { ... }; public $12 = class stdClass { ... } }], $render_layout = 2) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php:32
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$is_confirm in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 222
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = ['data' => class stdClass { public $0 = class stdClass { ... }; public $1 = class stdClass { ... }; public $2 = class stdClass { ... }; public $3 = class stdClass { ... }; public $4 = class stdClass { ... }; public $5 = class stdClass { ... }; public $6 = class stdClass { ... }; public $7 = class stdClass { ... }; public $8 = class stdClass { ... }; public $9 = class stdClass { ... }; public $10 = class stdClass { ... }; public $11 = class stdClass { ... }; public $12 = class stdClass { ... } }], $render_layout = 2) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php:32
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$is_confirm in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 222
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = ['data' => class stdClass { public $0 = class stdClass { ... }; public $1 = class stdClass { ... }; public $2 = class stdClass { ... }; public $3 = class stdClass { ... }; public $4 = class stdClass { ... }; public $5 = class stdClass { ... }; public $6 = class stdClass { ... }; public $7 = class stdClass { ... }; public $8 = class stdClass { ... }; public $9 = class stdClass { ... }; public $10 = class stdClass { ... }; public $11 = class stdClass { ... }; public $12 = class stdClass { ... } }], $render_layout = 2) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php:32
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$is_confirm in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 222
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = ['data' => class stdClass { public $0 = class stdClass { ... }; public $1 = class stdClass { ... }; public $2 = class stdClass { ... }; public $3 = class stdClass { ... }; public $4 = class stdClass { ... }; public $5 = class stdClass { ... }; public $6 = class stdClass { ... }; public $7 = class stdClass { ... }; public $8 = class stdClass { ... }; public $9 = class stdClass { ... }; public $10 = class stdClass { ... }; public $11 = class stdClass { ... }; public $12 = class stdClass { ... } }], $render_layout = 2) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php:32
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$is_confirm in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 222
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = ['data' => class stdClass { public $0 = class stdClass { ... }; public $1 = class stdClass { ... }; public $2 = class stdClass { ... }; public $3 = class stdClass { ... }; public $4 = class stdClass { ... }; public $5 = class stdClass { ... }; public $6 = class stdClass { ... }; public $7 = class stdClass { ... }; public $8 = class stdClass { ... }; public $9 = class stdClass { ... }; public $10 = class stdClass { ... }; public $11 = class stdClass { ... }; public $12 = class stdClass { ... } }], $render_layout = 2) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php:32
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$is_confirm in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 222
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = ['data' => class stdClass { public $0 = class stdClass { ... }; public $1 = class stdClass { ... }; public $2 = class stdClass { ... }; public $3 = class stdClass { ... }; public $4 = class stdClass { ... }; public $5 = class stdClass { ... }; public $6 = class stdClass { ... }; public $7 = class stdClass { ... }; public $8 = class stdClass { ... }; public $9 = class stdClass { ... }; public $10 = class stdClass { ... }; public $11 = class stdClass { ... }; public $12 = class stdClass { ... } }], $render_layout = 2) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php:32
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$is_confirm in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 222
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = ['data' => class stdClass { public $0 = class stdClass { ... }; public $1 = class stdClass { ... }; public $2 = class stdClass { ... }; public $3 = class stdClass { ... }; public $4 = class stdClass { ... }; public $5 = class stdClass { ... }; public $6 = class stdClass { ... }; public $7 = class stdClass { ... }; public $8 = class stdClass { ... }; public $9 = class stdClass { ... }; public $10 = class stdClass { ... }; public $11 = class stdClass { ... }; public $12 = class stdClass { ... } }], $render_layout = 2) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php:32
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$is_confirm in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 222
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = ['data' => class stdClass { public $0 = class stdClass { ... }; public $1 = class stdClass { ... }; public $2 = class stdClass { ... }; public $3 = class stdClass { ... }; public $4 = class stdClass { ... }; public $5 = class stdClass { ... }; public $6 = class stdClass { ... }; public $7 = class stdClass { ... }; public $8 = class stdClass { ... }; public $9 = class stdClass { ... }; public $10 = class stdClass { ... }; public $11 = class stdClass { ... }; public $12 = class stdClass { ... } }], $render_layout = 2) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php:32
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$is_confirm in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 222
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = ['data' => class stdClass { public $0 = class stdClass { ... }; public $1 = class stdClass { ... }; public $2 = class stdClass { ... }; public $3 = class stdClass { ... }; public $4 = class stdClass { ... }; public $5 = class stdClass { ... }; public $6 = class stdClass { ... }; public $7 = class stdClass { ... }; public $8 = class stdClass { ... }; public $9 = class stdClass { ... }; public $10 = class stdClass { ... }; public $11 = class stdClass { ... }; public $12 = class stdClass { ... } }], $render_layout = 2) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php:32
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$is_confirm in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 222
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = ['data' => class stdClass { public $0 = class stdClass { ... }; public $1 = class stdClass { ... }; public $2 = class stdClass { ... }; public $3 = class stdClass { ... }; public $4 = class stdClass { ... }; public $5 = class stdClass { ... }; public $6 = class stdClass { ... }; public $7 = class stdClass { ... }; public $8 = class stdClass { ... }; public $9 = class stdClass { ... }; public $10 = class stdClass { ... }; public $11 = class stdClass { ... }; public $12 = class stdClass { ... } }], $render_layout = 2) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php:32
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$is_confirm in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 222
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = ['data' => class stdClass { public $0 = class stdClass { ... }; public $1 = class stdClass { ... }; public $2 = class stdClass { ... }; public $3 = class stdClass { ... }; public $4 = class stdClass { ... }; public $5 = class stdClass { ... }; public $6 = class stdClass { ... }; public $7 = class stdClass { ... }; public $8 = class stdClass { ... }; public $9 = class stdClass { ... }; public $10 = class stdClass { ... }; public $11 = class stdClass { ... }; public $12 = class stdClass { ... } }], $render_layout = 2) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php:32
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$is_confirm in E:\_special\WAMP64\www\001\MVC\views\client\index.php on line 222
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'client/index', $render_data = ['data' => class stdClass { public $0 = class stdClass { ... }; public $1 = class stdClass { ... }; public $2 = class stdClass { ... }; public $3 = class stdClass { ... }; public $4 = class stdClass { ... }; public $5 = class stdClass { ... }; public $6 = class stdClass { ... }; public $7 = class stdClass { ... }; public $8 = class stdClass { ... }; public $9 = class stdClass { ... }; public $10 = class stdClass { ... }; public $11 = class stdClass { ... }; public $12 = class stdClass { ... } }], $render_layout = 2) E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[08-May-2025 10:10:22 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-2.php:32
+[08-May-2025 11:11:59 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 17
+[08-May-2025 11:11:59 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 11:11:59 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 11:11:59 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 11:11:59 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 17
+[08-May-2025 11:11:59 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 11:11:59 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 11:11:59 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 11:11:59 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 23
+[08-May-2025 11:11:59 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 11:11:59 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 11:11:59 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->index() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 11:12:51 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token "," in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 16
+[08-May-2025 11:12:56 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Attempt to assign property "searchResult" on array in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:16
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\index.php(13): clientcontroller->index()
+#1 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 16
+[08-May-2025 11:13:20 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:20
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\index.php(13): clientcontroller->index()
+#1 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 20
+[08-May-2025 11:37:47 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Clientcore" not found in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:8
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\index.php(13): clientcontroller->index()
+#1 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 8
+[08-May-2025 11:38:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Clientcore" not found in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:8
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\index.php(13): clientcontroller->index()
+#1 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 8
+[08-May-2025 11:55:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $clientSearch in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 23
+[08-May-2025 11:55:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 11:55:39 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 11:55:39 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->report() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 11:55:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function reportpost() on null in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php:23
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\index.php(13): clientcontroller->report()
+#1 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 23
+[08-May-2025 11:56:37 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method DoiTuong::facebook() in E:\_special\WAMP64\www\001\MVC\models\Client.php:78
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php(23): Client->reportpost(Object(DoiTuong))
+#1 E:\_special\WAMP64\www\001\MVC\index.php(13): clientcontroller->report()
+#2 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\models\Client.php on line 78
+[08-May-2025 12:01:39 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token "}" in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 28
+[08-May-2025 12:02:28 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $msg in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 27
+[08-May-2025 12:02:28 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 12:02:28 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 12:02:28 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->report() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 12:03:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $reportStatus in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 29
+[08-May-2025 12:03:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 12:03:39 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 12:03:39 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->report() E:\_special\WAMP64\www\001\MVC\index.php:13
+[08-May-2025 12:51:20 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "formSave" in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 42
+[08-May-2025 12:51:20 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 12:51:20 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 12:51:20 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->report() E:\_special\WAMP64\www\001\MVC\index.php:12
+[08-May-2025 12:51:25 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "formSave" in E:\_special\WAMP64\www\001\MVC\controllers\clientcontroller.php on line 42
+[08-May-2025 12:51:25 Asia/Ho_Chi_Minh] PHP Stack trace:
+[08-May-2025 12:51:25 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[08-May-2025 12:51:25 Asia/Ho_Chi_Minh] PHP   2. clientcontroller->report() E:\_special\WAMP64\www\001\MVC\index.php:12

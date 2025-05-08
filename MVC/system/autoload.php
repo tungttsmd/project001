@@ -16,6 +16,7 @@ spl_autoload_register(function ($classNameWillBeReturnedHere) {
     $path_controllers = "controllers/$className.php";
     $path_models = "models/$className.php";
     $path_database = "system/database/$className.php";
+    $path_core = "core/$className.php";
 
     if (file_exists($path_controllers)) {
         include $path_controllers;
@@ -25,5 +26,8 @@ spl_autoload_register(function ($classNameWillBeReturnedHere) {
     };
     if (file_exists($path_database)) {
         include $path_database;
+    };
+    if (file_exists($path_core)) {
+        include $path_core;
     };
 });
