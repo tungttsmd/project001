@@ -40,7 +40,7 @@
                                 <div><i class="bi bi-person-fill scam-icon"></i><?= $value->account_name ?></div>
                                 <div class="d-flex">
                                     <small class="me-2 text-muted">Trạng thái: <?= $value->is_confirm === (string) 1 ? '<span style="color: red">Đã xác minh</span>' : '<span style="color: orange">Chưa xác minh</span>' ?></small>
-                                    <small class="me-2 text-muted">Ngày báo cáo: <?= $value->account_number ?></small>
+                                    <small class="me-2 text-muted">Ngày báo cáo: <?= $value->create_date ?></small>
                                     <small class="me-2 text-muted">STK: <?= $value->account_number ?></small>
                                     <small class="me-2 text-warning"><span style="color: blue">Bank: <?= $value->account_bank ?></span></small>
                                     <small class="me-2 text-muted">(<?= $value->account_name ?>) Lượt bình luận</small>

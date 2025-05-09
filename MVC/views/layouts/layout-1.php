@@ -6,13 +6,13 @@
 <head>
     <title>AdminLTE v4 | Dashboard</title>
     <!--begin::Primary Meta Tags-->
-    <?= include 'widgets/admin/widget-head-meta.php'; ?>
+    <?= include 'views/layouts/widget/widget-head-meta.php'; ?>
     <!--end::Primary Meta Tags-->
     <!--begin::Fonts-->
-    <?= include 'widgets/admin/widget-head-fontLink.php'; ?>
+    <?= include 'views/layouts/widget/widget-head-fontLink.php'; ?>
     <!--end::Fonts-->
     <!--begin::Third Party Plugin(Bootstrap Icons)-->
-    <?= include 'widgets/admin/widget-head-pluginLink.php'; ?>
+    <?= include 'views/layouts/widget/widget-head-pluginLink.php'; ?>
     <!--end::Third Party Plugin(Bootstrap Icons)-->
     <!--end::Head-->
 </head>
@@ -216,7 +216,7 @@
         <!--end::Header-->
 
         <!--begin::Sidebar-->
-        <?= include 'widgets/admin/widget-sidebar.php' ?>
+        <?= include 'views/layouts/widget/widget-sidebar.php' ?>
         <!--end::Sidebar-->
 
         <!--begin::App Main-->
@@ -228,12 +228,12 @@
                     <!--begin::Row-->
                     <div class="row">
                         <div class="col-sm-6">
-                            <h3 class="mb-0"><?=$pageTitle ?? 'Dashboard'?></h3>
+                            <h3 class="mb-0"><?= $pageTitle ?? 'Dashboard' ?></h3>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-end">
-                                <li class="breadcrumb-item"><a href="<?=mvchref('admin', 'index')?>">Trang chủ</a></li>
-                                <li class="breadcrumb-item active" aria-current="page"><?=$pageTitle ?? 'Dashboard'?></li>
+                                <li class="breadcrumb-item"><a href="<?= mvchref('admin', 'index') ?>">Trang chủ</a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><?= $pageTitle ?? 'Dashboard' ?></li>
                             </ol>
                         </div>
                     </div>
@@ -247,22 +247,11 @@
             <div class="app-content">
                 <!--begin::Container-->
                 <div class="container-fluid">
-                    <?php if (isset($_SESSION['msg'])) { ?>
-                        <div style="padding: 0px 10px" class="row">
-                            <div class="alert alert-<?= $_SESSION['color'] ?? 'warning' ?>" role="alert">
-                                <?= $_SESSION['msg'] ?>
-                            </div>
-                        </div>
-                    <?php  }; ?>
                     <!--begin::Row-->
                     <div class="row">
                         <!--begin::Col-->
                         <div class="col-12">
-                        <?php include $view; ?>
-                        </div>
-                        <div class="col-6">
-                            <h3>Debug</h3>
-                            <?php var_dump($_POST ?? '') ?>
+                            <?php include $view; ?>
                         </div>
                         <!--end::Col-->
                     </div>
@@ -275,14 +264,14 @@
         <!--end::App Main-->
 
         <!--begin::Footer-->
-        <?= include 'widgets/admin/widget-body-footer.php' ?>
+        <?= include 'views/layouts/widget/widget-body-footer.php' ?>
         <!--end::Footer-->
 
     </div>
     <!--end::App Wrapper-->
 
     <!--begin::Script-->
-    <?= include 'widgets/admin/widget-body-scripts.php' ?>
+    <?= include 'views/layouts/widget/widget-body-scripts.php' ?>
     <!--end::Script-->
 
 </body>

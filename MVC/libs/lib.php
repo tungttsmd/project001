@@ -118,3 +118,11 @@ function oopunset(object $mixList, $unsetKeys)
     }
     return $mixList;
 }
+
+function obget(string $path, array $data)
+{
+    extract($data);
+    ob_start(); // Bắt đầu "bắt" nội dung đầu ra
+    include $path;
+    return ob_get_clean(); // Lấy nội dung và kết thúc bắt đầu ra
+}

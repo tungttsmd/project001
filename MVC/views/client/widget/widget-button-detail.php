@@ -1,0 +1,1 @@
+<a style='color: red' class='no-underline' href="<?= mvchref('client', 'detail', "&id=$id") ?>"><button type='button' class='btn-custom btn-info'>Xem chi tiết</button></a>

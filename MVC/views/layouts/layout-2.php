@@ -1,9 +1,9 @@
 <?php
-include 'widgets/widget-head-fontLink.php';
-include 'widgets/widget-head-meta.php';
-include 'widgets/widget-head-pluginLink.php';
-include 'widgets/widget-body-footer.php';
-include 'widgets/widget-body-scripts.php';
+include 'views/layouts/widget/widget-head-fontLink.php';
+include 'views/layouts/widget/widget-head-meta.php';
+include 'views/layouts/widget/widget-head-pluginLink.php';
+include 'views/layouts/widget/widget-body-footer.php';
+include 'views/layouts/widget/widget-body-scripts.php';
 ?>
 <style>
     #headerNav {
@@ -24,6 +24,7 @@ include 'widgets/widget-body-scripts.php';
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="<?= mvchref('client', 'index') ?>">Trang chủ</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?= mvchref('admin', 'index') ?>">Về giao diện admin</a></li>
             </ul>
             <a class="btn btn-danger ms-2" href="<?= mvchref('client', 'report') ?>">TỐ CÁO LỪA ĐẢO</a>
         </div>

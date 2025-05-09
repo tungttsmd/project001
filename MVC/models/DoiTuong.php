@@ -7,6 +7,7 @@ class DoiTuong
     private $note;
     private $reporter_name;
     private $reporter_contact;
+    private $id;
     function __construct(
         $account_name = null,
         $account_number = null,
@@ -14,6 +15,7 @@ class DoiTuong
         $account_note = null,
         $reporter_name = null,
         $reporter_contact = null,
+        $id = null,
     ) {
         $this->name = $account_name;
         $this->number = $account_number;
@@ -21,6 +23,7 @@ class DoiTuong
         $this->note = $account_note;
         $this->reporter_name = $reporter_name;
         $this->reporter_contact = $reporter_contact;
+        $this->id = $id;
     }
     public function name()
     {
@@ -45,5 +48,9 @@ class DoiTuong
     public function reporterName()
     {
         return $this->reporter_name;
+    }
+    public function id()
+    {
+        return $this->id;
     }
 }

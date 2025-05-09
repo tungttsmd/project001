@@ -57,6 +57,7 @@
                         } ?></td>
                     <td><?= (is_null($value['is_comfirm'])) ? '<span style="color: red">Đang chờ duyệt</span>' : '<span style="color: green">Đã xem xét</span>' ?></td>
                     <td>
+                        <a href="?id=<?= $value['id'] ?>"><button type="button" name="button" value="listAccept">Chi tiết</button></a>
                         <a href="?id=<?= $value['id'] ?>"><button type="button" name="button" value="listAccept">Chấp nhận</button></a>
                         <a href="?folder=admin&file=duyet&mode=0&id=<?= $value['id'] ?>"><button>Không chấp nhận</button></a>
                         <a href="?folder=admin&file=duyet&mode=2&id=<?= $value['id'] ?>"><button>Đưa về diện xem xét lại</button></a>

@@ -1,36 +1,37 @@
 <?php
-class Clientcore
+class Admincore
 {
-    static function index_listDraw(&$list, &$drawAllow)
+    static function list_fetchAll(&$data)
     {
-        # decisions
-        if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST) && $_POST['button'] === 'searchpost') {
-            $formData = oopstd($_POST);
-            $clientSearch = new Client();
-            $clientKeyword = new DoiTuong(null, $formData->{'search-account-number'});
-            $fetchedList = oopstd($clientSearch->searchpost($clientKeyword));
-            # Validation input
-            if (!isset($fetchedList->error->message)) {
-                $indexList = $fetchedList->data->query;
-                $indexHtml = true;
-            }
-        }
+        $adminList = new Admin();
+        $fetchedList = oopstd($adminList->list());
 
         # Return
-        $list = $indexList ?? null;
-        $drawAllow->searchResult = $indexHtml ?? null;
+        $data = $fetchedList ?? null;
     }
-    static function detail_idFetch(&$data, &$msg, &$color)
+    static function record_update()
+    {
+        if (isset($_GET['use'], $_GET['id']) && in_array($_GET['use'], ['accept', 'reject', 'wait'])) {
+
+            $adminUpdate = new Admin();
+            $adminUpdate->recordpost($_GET['id'], $_GET['use'], $msg, $color);
+
+            # not return
+            header("location: " . mvchref('admin', 'list'));
+            exit;
+        }
+    }
+    static function detail_recordFetch(&$data, &$msg, &$color)
     {
         if (!isset($_GET['id'])) {
-            header("location: " . mvchref('client', 'index'));
+            header("location: " . mvchref('admin', 'list'));
             exit;
         }
         if (isset($_GET['id'])) {
-            $clientSearch = new Client();
-            $clientId = new DoiTuong(null, null, null, null, null, null, $_GET['id']);
-            $clientDetail = $clientSearch->detailpost($clientId);
-            $fetchDetail = oopstd($clientDetail);
+            $recordSearch = new Admin();
+            $recordId = new DoiTuong(null, null, null, null, null, null, $_GET['id']);
+            $recordDetail = $recordSearch->detailpost($recordId);
+            $fetchDetail = oopstd($recordDetail);
             if (isset($fetchDetail->error->extensions->code) && $fetchDetail->error->extensions->code === 'ID_NOT_FOUND') {
                 $detailMsg = $fetchDetail->error->message;
                 $detailColor = "danger";
@@ -44,6 +45,12 @@ class Clientcore
         $msg = $detailMsg ?? null;
         $color = $detailColor ?? null;
     }
+
+
+
+
+
+
     static function report_dataSave(&$data, &$msg, &$color)
     {
         # access this action by which method?

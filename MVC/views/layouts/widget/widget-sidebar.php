@@ -35,9 +35,9 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= mvchref('admin', 'tocao') ?>" class="nav-link">
+                    <a href="<?= mvchref('admin', 'list') ?>" class="nav-link">
                         <i class="nav-icon bi bi-palette"></i>
-                        <p>Tố cáo</p>
+                        <p>Danh sách</p>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -74,6 +74,12 @@
                     <a href="?folder=scammers&file=kiemtra" class="nav-link">
                         <i class="nav-icon bi bi-speedometer"></i>
                         <p>Admin: Thêm mới Tố cáo</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="<?= mvchref('client', 'index') ?>" class="nav-link">
+                        <i class="nav-icon bi bi-palette"></i>
+                        <p>Về giao diện người dùng</p>
                     </a>
                 </li>
                 <!-- end: nội dung -->

@@ -243,4 +243,40 @@
     .rounded {
         border-radius: 16px !important;
     }
+
+
+    /* Custom */
+    .btn-custom {
+        border: 1px solid #b02a37 !important;
+        color: white !important;
+        border-radius: 4px !important;
+        background-color: #b02a37;
+    }
+
+    .no-underline {
+        text-decoration: none !important;
+    }
+
+    .btn-custom:hover {
+        opacity: 0.6 !important;
+    }
+
+    .btn-custom.btn-info {
+        border: 1px solid #0099b1 !important;
+        color: white !important;
+        border-radius: 4px !important;
+        background-color: #0099b1;
+    }
+
+    .align-items-center {
+        align-items: center !important;
+    }
+
+    .text-left {
+        text-align: left !important;
+    }
+
+    b {
+        padding: 0 !important;
+    }
 </style>
