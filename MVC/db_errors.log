@@ -2843,3 +2843,304 @@ Stack trace:
 [09-May-2025 13:06:28 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/detail', $render_data = ['msg' => NULL, 'color' => NULL, 'data' => class stdClass { public $id = '7'; public $account_name = '12312312'; public $account_number = '3123'; public $account_bank = '123123'; public $scammer_note = '312123'; public $scammer_contact = '12312'; public $is_confirm = '1'; public $reporter_name = NULL; public $reporter_contact = ''; public $create_date = '2025-05-08 11:48:57' }], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:49
 [09-May-2025 13:06:28 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
 [09-May-2025 13:06:28 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $data in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 61
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:23
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 61
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:23
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $data in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 62
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:23
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 62
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:23
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $data in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 63
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:23
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 63
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:23
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:03:39 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $data in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 61
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:23
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 61
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:23
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $data in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 62
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:23
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 62
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:23
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $data in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 63
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:23
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 63
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:23
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:03:58 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $data in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 61
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:37
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 61
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:37
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $data in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 62
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:37
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 62
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:37
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $data in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 63
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:37
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 63
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = [], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:37
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:08:44 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:13:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $refetchDetail in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 28
+[09-May-2025 19:13:10 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:13:10 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:13:10 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:13:25 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "data" on array in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 27
+[09-May-2025 19:13:25 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:13:25 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:13:25 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:13:25 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "query" on null in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 27
+[09-May-2025 19:13:25 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:13:25 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:13:25 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:13:25 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "0" on null in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 27
+[09-May-2025 19:13:25 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:13:25 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:13:25 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:14:19 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "data" on array in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 26
+[09-May-2025 19:14:19 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:14:19 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:14:19 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:14:19 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "data" on null in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 27
+[09-May-2025 19:14:19 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:14:19 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:14:19 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:14:19 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "query" on null in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 27
+[09-May-2025 19:14:19 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:14:19 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:14:19 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:31:32 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token "public" in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 53
+[09-May-2025 19:37:45 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::name() in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:35
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\index.php(12): admincontroller->edit()
+#1 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 35
+[09-May-2025 19:38:21 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::name() in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:35
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\index.php(12): admincontroller->edit()
+#1 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 35
+[09-May-2025 19:40:15 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Exception: Exception [DBCRUD->update] - CRUD thất bại: Exception [DBQuery->fetch] - Lỗi fetch dữ liệu: Exception [DBQuery->query()] - Query thất bại: Unknown column 'account_note' in 'field list' in E:\_special\WAMP64\www\001\MVC\system\database\DBCRUD.php:70
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\models\Admin.php(82): DBCRUD->update('scammers', Array, Array)
+#1 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(45): Admin->editpost(Object(DoiTuong))
+#2 E:\_special\WAMP64\www\001\MVC\index.php(12): admincontroller->edit()
+#3 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\system\database\DBCRUD.php on line 70
+[09-May-2025 19:41:57 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Exception: Exception [DBCRUD->update] - CRUD thất bại: Exception [DBQuery->fetch] - Lỗi fetch dữ liệu: Exception [DBQuery->query()] - Query thất bại: Unknown column 'account_note' in 'field list' in E:\_special\WAMP64\www\001\MVC\system\database\DBCRUD.php:70
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\models\Admin.php(82): DBCRUD->update('scammers', Array, Array)
+#1 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(45): Admin->editpost(Object(DoiTuong))
+#2 E:\_special\WAMP64\www\001\MVC\index.php(12): admincontroller->edit()
+#3 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\system\database\DBCRUD.php on line 70
+[09-May-2025 19:42:00 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Exception: Exception [DBCRUD->update] - CRUD thất bại: Exception [DBQuery->fetch] - Lỗi fetch dữ liệu: Exception [DBQuery->query()] - Query thất bại: Unknown column 'account_note' in 'field list' in E:\_special\WAMP64\www\001\MVC\system\database\DBCRUD.php:70
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\models\Admin.php(82): DBCRUD->update('scammers', Array, Array)
+#1 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(45): Admin->editpost(Object(DoiTuong))
+#2 E:\_special\WAMP64\www\001\MVC\index.php(12): admincontroller->edit()
+#3 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\system\database\DBCRUD.php on line 70
+[09-May-2025 19:42:10 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Exception: Exception [DBCRUD->update] - CRUD thất bại: Exception [DBQuery->fetch] - Lỗi fetch dữ liệu: Exception [DBQuery->query()] - Query thất bại: Unknown column 'account_note' in 'field list' in E:\_special\WAMP64\www\001\MVC\system\database\DBCRUD.php:70
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\models\Admin.php(82): DBCRUD->update('scammers', Array, Array)
+#1 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(45): Admin->editpost(Object(DoiTuong))
+#2 E:\_special\WAMP64\www\001\MVC\index.php(12): admincontroller->edit()
+#3 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\system\database\DBCRUD.php on line 70
+[09-May-2025 19:42:18 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Exception: Exception [DBCRUD->update] - CRUD thất bại: Exception [DBQuery->fetch] - Lỗi fetch dữ liệu: Exception [DBQuery->query()] - Query thất bại: Unknown column 'account_note' in 'field list' in E:\_special\WAMP64\www\001\MVC\system\database\DBCRUD.php:70
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\models\Admin.php(82): DBCRUD->update('scammers', Array, Array)
+#1 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(45): Admin->editpost(Object(DoiTuong))
+#2 E:\_special\WAMP64\www\001\MVC\index.php(12): admincontroller->edit()
+#3 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\system\database\DBCRUD.php on line 70
+[09-May-2025 19:42:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Exception: Exception [DBCRUD->update] - CRUD thất bại: Exception [DBQuery->fetch] - Lỗi fetch dữ liệu: Exception [DBQuery->query()] - Query thất bại: Unknown column 'account_contact' in 'field list' in E:\_special\WAMP64\www\001\MVC\system\database\DBCRUD.php:70
+Stack trace:
+#0 E:\_special\WAMP64\www\001\MVC\models\Admin.php(82): DBCRUD->update('scammers', Array, Array)
+#1 E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php(45): Admin->editpost(Object(DoiTuong))
+#2 E:\_special\WAMP64\www\001\MVC\index.php(12): admincontroller->edit()
+#3 {main}
+  thrown in E:\_special\WAMP64\www\001\MVC\system\database\DBCRUD.php on line 70
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on int in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 61
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = ['data' => 1, 'msg' => NULL, 'color' => NULL], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:64
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on int in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 62
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = ['data' => 1, 'msg' => NULL, 'color' => NULL], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:64
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on int in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 63
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = ['data' => 1, 'msg' => NULL, 'color' => NULL], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:64
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:48:16 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:51:40 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$id in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 43
+[09-May-2025 19:51:40 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:51:40 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:51:40 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:51:47 Asia/Ho_Chi_Minh] PHP Warning:  Undefined property: stdClass::$id in E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php on line 43
+[09-May-2025 19:51:47 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:51:47 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:51:47 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 61
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = ['data' => NULL, 'msg' => 'Không tìm thấy ID người này', 'color' => 'danger'], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:69
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 62
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = ['data' => NULL, 'msg' => 'Không tìm thấy ID người này', 'color' => 'danger'], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:69
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 63
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = ['data' => NULL, 'msg' => 'Không tìm thấy ID người này', 'color' => 'danger'], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:69
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 19:59:39 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 61
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = ['data' => NULL, 'msg' => 'Không tìm thấy ID người này', 'color' => 'danger'], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:70
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 62
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = ['data' => NULL, 'msg' => 'Không tìm thấy ID người này', 'color' => 'danger'], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:70
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 63
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = ['data' => NULL, 'msg' => 'Không tìm thấy ID người này', 'color' => 'danger'], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:70
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 20:00:15 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 61
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = ['data' => NULL, 'msg' => 'Không tìm thấy ID người này', 'color' => 'danger'], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:70
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 62
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = ['data' => NULL, 'msg' => 'Không tìm thấy ID người này', 'color' => 'danger'], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:70
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP Warning:  Attempt to read property "is_confirm" on null in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 63
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP Stack trace:
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   1. {main}() E:\_special\WAMP64\www\001\MVC\index.php:0
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   2. admincontroller->edit() E:\_special\WAMP64\www\001\MVC\index.php:12
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   3. controller->render($render_view = 'admin/edit', $render_data = ['data' => NULL, 'msg' => 'Không tìm thấy ID người này', 'color' => 'danger'], $render_layout = 1) E:\_special\WAMP64\www\001\MVC\controllers\admincontroller.php:70
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   4. include() E:\_special\WAMP64\www\001\MVC\controllers\controller.php:9
+[09-May-2025 20:00:33 Asia/Ho_Chi_Minh] PHP   5. include() E:\_special\WAMP64\www\001\MVC\views\layouts\layout-1.php:254
+[09-May-2025 20:16:00 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in E:\_special\WAMP64\www\001\MVC\views\admin\edit.php on line 84
+[09-May-2025 22:08:25 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected token "/" in E:\_special\WAMP64\www\001\MVC\views\admin\index.php on line 11

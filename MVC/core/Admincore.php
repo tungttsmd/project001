@@ -4,8 +4,16 @@ class Admincore
     static function list_fetchAll(&$data)
     {
         $adminList = new Admin();
-        $fetchedList = oopstd($adminList->list());
 
+        if (isset($_GET['filter']) && $_GET['filter'] === 'accept') {
+            $fetchedList = oopstd($adminList->listAccept());
+        } elseif (isset($_GET['filter']) && $_GET['filter'] === 'reject') {
+            $fetchedList = oopstd($adminList->listReject());
+        } elseif (isset($_GET['filter']) && $_GET['filter'] === 'wait') {
+            $fetchedList = oopstd($adminList->listWait());
+        } else {
+            $fetchedList = oopstd($adminList->list());
+        }
         # Return
         $data = $fetchedList ?? null;
     }
@@ -30,7 +38,7 @@ class Admincore
         if (isset($_GET['id'])) {
             $recordSearch = new Admin();
             $recordId = new DoiTuong(null, null, null, null, null, null, $_GET['id']);
-            $recordDetail = $recordSearch->detailpost($recordId);
+            $recordDetail = $recordSearch->detailget($recordId);
             $fetchDetail = oopstd($recordDetail);
             if (isset($fetchDetail->error->extensions->code) && $fetchDetail->error->extensions->code === 'ID_NOT_FOUND') {
                 $detailMsg = $fetchDetail->error->message;
@@ -44,6 +52,60 @@ class Admincore
         $data = $detailData ?? null;
         $msg = $detailMsg ?? null;
         $color = $detailColor ?? null;
+    }
+    static function edit_updateRecord(&$data, &$msg, &$color)
+    {
+        if (isset($_GET['id'])) {
+            $recordEdit = new Admin();
+            $recordSearch = new DoiTuong(null, null, null, null, null, null, $_GET['id']);
+            $recordDetail = $recordEdit->detailget($recordSearch);
+            $fetchDetail = oopstd($recordDetail);
+            if (isset($fetchDetail->error->extensions->code) && $fetchDetail->error->extensions->code === 'ID_NOT_FOUND') {
+                $detailMsg = $fetchDetail->error->message;
+                $detailColor = "danger";
+            } else {
+                $detailData = $fetchDetail->data->query->{'0'};
+                if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['button']) && $_POST['button'] === 'editpost') {
+                    $formData = oopstd($_POST);
+                    $objectEdit = new DoiTuong(
+                        $formData->account_name ?? $detailData->account_name,
+                        $formData->account_number ?? $detailData->account_number,
+                        $formData->account_bank ?? $detailData->account_bank,
+                        $formData->scammer_note ?? $detailData->scammer_note,
+                        $formData->reporter_name ?? $detailData->reporter_name,
+                        $formData->reporter_contact ?? $detailData->reporter_contact,
+                        $formData->id ?? $detailData->id,
+                        $formData->is_confirm ?? $detailData->is_confirm,
+                        $formData->scammer_contact ?? $detailData->scammer_contact
+                    );
+                    $result = $recordEdit->editpost($objectEdit);
+                    $recordEdit = new Admin();
+                    $recordSearch = new DoiTuong(null, null, null, null, null, null, $_GET['id']);
+                    $recordDetail = $recordEdit->detailget($recordSearch);
+                    $fetchDetail = oopstd($recordDetail);
+                    if (isset($fetchDetail->error->extensions->code) && $fetchDetail->error->extensions->code === 'ID_NOT_FOUND') {
+                        $detailMsg = $fetchDetail->error->message;
+                        $detailColor = "danger";
+                    } else {
+                        if ($result) {
+                            $detailMsg = 'Cập nhật thành công!';
+                            $detailColor = "success";
+                        } else {
+                            $detailMsg = 'Không có nội dung nào được cập nhật.';
+                            $detailColor = "warning";
+                        }
+                        $detailData = $fetchDetail->data->query->{'0'};
+                    }
+                }
+            }
+        } else {
+            $detailMsg = "Không tìm thấy ID này";
+            $detailColor = "danger";
+        }
+        # return
+        $color = $detailColor ?? null;
+        $msg = $detailMsg ?? null;
+        $data = $detailData ?? null;
     }
 
 

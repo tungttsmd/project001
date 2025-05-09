@@ -8,6 +8,8 @@ class DoiTuong
     private $reporter_name;
     private $reporter_contact;
     private $id;
+    private $is_confirm;
+    private $account_contact;
     function __construct(
         $account_name = null,
         $account_number = null,
@@ -16,6 +18,8 @@ class DoiTuong
         $reporter_name = null,
         $reporter_contact = null,
         $id = null,
+        $is_confirm = null,
+        $account_contact = null
     ) {
         $this->name = $account_name;
         $this->number = $account_number;
@@ -24,6 +28,8 @@ class DoiTuong
         $this->reporter_name = $reporter_name;
         $this->reporter_contact = $reporter_contact;
         $this->id = $id;
+        $this->is_confirm = $is_confirm;
+        $this->account_contact = $account_contact;
     }
     public function name()
     {
@@ -52,5 +58,13 @@ class DoiTuong
     public function id()
     {
         return $this->id;
+    }
+    public function is_confirm()
+    {
+        return $this->is_confirm;
+    }
+    public function account_contact()
+    {
+        return $this->account_contact;
     }
 }

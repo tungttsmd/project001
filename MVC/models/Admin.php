@@ -6,6 +6,21 @@ class Admin extends DBCRUD
         $sql = "SELECT * FROM `scammers`";
         return $this->prep($sql)->exec()['data']['query_data_fetch'];
     }
+    public function listWait()
+    {
+        $sql = "SELECT * FROM `scammers` WHERE `is_confirm` IS NULL";
+        return $this->prep($sql)->exec()['data']['query_data_fetch'];
+    }
+    public function listReject()
+    {
+        $sql = "SELECT * FROM `scammers` WHERE `is_confirm` = 0";
+        return $this->prep($sql)->exec()['data']['query_data_fetch'];
+    }
+    public function listAccept()
+    {
+        $sql = "SELECT * FROM `scammers` WHERE `is_confirm` = 1";
+        return $this->prep($sql)->exec()['data']['query_data_fetch'];
+    }
     public function recordpost(int $id, $confirm, &$msg, &$color)
     {
         try {
@@ -35,7 +50,7 @@ class Admin extends DBCRUD
             throw new Exception("Duyệt báo cáo thất bại: " . $e->getMessage());
         }
     }
-    public function detailpost(DoiTuong $doituong)
+    public function detailget(DoiTuong $doituong)
     {
         $sql = "SELECT * FROM `scammers` WHERE `id` = ?v";
         $result = $this->prep($sql)
@@ -66,6 +81,27 @@ class Admin extends DBCRUD
             ];
         }
     }
+    public function editpost(DoiTuong $doituong)
+    {
+        $data = [
+            'account_name' => $doituong->name(),
+            'account_number' => $doituong->number(),
+            'account_bank' => $doituong->bank(),
+            'scammer_note' => $doituong->note(),
+            'scammer_contact' => $doituong->account_contact(),
+            'reporter_name' => $doituong->reporterName(),
+            'reporter_contact' => $doituong->reporterContact(),
+            'is_confirm' => $doituong->is_confirm() === '' ? null : $doituong->is_confirm(),
+        ];
+
+        return $this->update("scammers", $data, ['id' => $doituong->id()]);
+    }
+
+
+
+
+
+
 
     public function scammerList()
     {

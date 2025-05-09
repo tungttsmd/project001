@@ -41,45 +41,30 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= mvchref('admin', 'kiemtra') ?>" class="nav-link">
-                        <i class="nav-icon bi bi-palette"></i>
-                        <p>Tra cứu</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="?folder=scammers&file=kiemtra" class="nav-link">
-                        <i class="nav-icon bi bi-palette"></i>
-                        <p>Xem chi tiết</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="<?= mvchref('admin', 'list') ?>" class="nav-link">
+                    <a href="<?= mvchref('admin', 'search') ?>" class="nav-link">
                         <i class="nav-icon bi bi-speedometer"></i>
-                        <p>Admin: Danh sách lừa đảo</p>
+                        <p>Tra cứu STK (Client)</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="?folder=scammers&file=kiemtra" class="nav-link">
+                    <a href="<?= mvchref('admin', 'report') ?>" class="nav-link">
                         <i class="nav-icon bi bi-speedometer"></i>
-                        <p>Admin: Chỉnh sửa danh sách</p>
+                        <p>Thêm mới (Client)</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
-                    <a href="?folder=scammers&file=kiemtra" class="nav-link">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon bi bi-speedometer"></i>
-                        <p>Admin: Thống kê</p>
+                        <p>Thống kê (chưa)</p>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a href="?folder=scammers&file=kiemtra" class="nav-link">
-                        <i class="nav-icon bi bi-speedometer"></i>
-                        <p>Admin: Thêm mới Tố cáo</p>
-                    </a>
-                </li>
+
                 <li class="nav-item">
                     <a href="<?= mvchref('client', 'index') ?>" class="nav-link">
                         <i class="nav-icon bi bi-palette"></i>
-                        <p>Về giao diện người dùng</p>
+                        <p>Về client</p>
                     </a>
                 </li>
                 <!-- end: nội dung -->
