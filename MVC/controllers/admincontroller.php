@@ -7,29 +7,70 @@ class admincontroller extends controller
     }
     public function list()
     {
-        $data = oopstd([]);
-        Admincore::list_fetchAll($data);
-        $this->render('admin/list', ['data' => $data], 1);
+        $data = AdminService::make()
+            ->list();
+
+        $this->render('admin/list',  $data, 1);
     }
     public function record()
     {
-        Admincore::record_update();
-    }
-    public function edit()
-    {
-        $data = null;
-        $msg = null;
-        $color = 'warning';
-        Admincore::edit_updateRecord($data, $msg, $color);
-        $this->render('admin/edit', ['data' => $data, 'msg' => $msg, 'color' => $color], 1);
+        AdminService::make()
+            ->valid(isset($_GET['use'], $_GET['id']) && in_array($_GET['use'], ['accept', 'reject', 'wait']))
+            ->update_isConfirm($_GET['id'], $_GET['use']);
+
+        $this->header('admin', 'list');
     }
     public function detail()
     {
-        $msg = null;
-        $color = 'warning';
-        $data = null;
-        Admincore::detail_recordFetch($data, $msg, $color);
-        $this->render('admin/detail', ['msg' => $msg, 'color' => $color, 'data' => $data], 1);
+
+        $response = oopstd(AdminService::make()
+            ->detail_getByID());
+
+        if ($response->flag) {
+            $data = [
+                'msg' => $response->data->data->message,
+                'color' => $response->data->data->color,
+                'data' => $response->data->data->result
+            ];
+            $this->render('admin/detail', $data, 1);
+        } else {
+            $this->header('admin', 'list');
+        }
+    }
+    public function edit()
+    {
+        $recordId = RecordBuilder::make()
+            ->set('id', $_GET['id'] ?? null)
+            ->build();
+
+        $service = AdminService::make()
+            ->detail_getByID();
+
+        $response = oopstd($service);
+
+        $flag = true;
+
+        if (isset($response->error)) {
+            $flag = false;
+        }
+
+
+        if ($flag) {
+            $data = oopstd($service)->data->data->result;
+
+            if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['button']) && $_POST['button'] === 'editpost') {
+                $formData = oopstd($_POST);
+
+                $service = AdminService::make()
+                    ->edit_recordPut($formData, $data);
+
+                $data = oopstd($service)->data;
+            }
+
+            $this->render('admin/edit', ['data' => $data], 1);
+        } else {
+            $this->header('admin', 'list');
+        }
     }
     public function report()
     {

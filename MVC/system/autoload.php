@@ -17,6 +17,10 @@ spl_autoload_register(function ($classNameWillBeReturnedHere) {
     $path_models = "models/$className.php";
     $path_database = "system/database/$className.php";
     $path_core = "core/$className.php";
+    $path_app_builder = "app/Builders/$className.php";
+    $path_app_models = "app/Models/$className.php";
+    $path_app_repository = "app/Repository/$className.php";
+    $path_app_service = "app/Services/$className.php";
 
     if (file_exists($path_controllers)) {
         include $path_controllers;
@@ -29,5 +33,17 @@ spl_autoload_register(function ($classNameWillBeReturnedHere) {
     };
     if (file_exists($path_core)) {
         include $path_core;
+    };
+    if (file_exists($path_app_builder)) {
+        include $path_app_builder;
+    };
+    if (file_exists($path_app_models)) {
+        include $path_app_models;
+    };
+    if (file_exists($path_app_repository)) {
+        include $path_app_repository;
+    };
+    if (file_exists($path_app_service)) {
+        include $path_app_service;
     };
 });

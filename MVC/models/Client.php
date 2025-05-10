@@ -1,42 +1,6 @@
 <?php
 class Client extends DBCRUD
 {
-    public function searchpost(DoiTuong $doituong)
-    {
-        $flag = true;
-        $msg = '';
-        $searchKeyword = $doituong->number();
-        if (empty($searchKeyword)) {
-            $flag = false;
-            $msg = [
-                'error' => [
-                    'message' => 'Số tài khoản không được rỗng!',
-                    'path' => __FUNCTION__,
-                    'extensions' => [
-                        'code' => 'INP_NOT_ALLOW_EMPTY'
-                    ],
-                    'data' => []
-                ]
-            ];
-        }
-
-        if ($flag) {
-            $sql = "SELECT * FROM `scammers` WHERE `account_number` LIKE ?v";
-            $result = $this->prep($sql)
-                ->bind(['%' . $searchKeyword . '%'], '?v')
-                ->exec()['data'];
-            return [
-                'data' => [
-                    'status' => 'success',
-                    'message' => 'Tìm thấy ' . $result['query_row_count'] . ' kết quả',
-                    'query' => $result['query_data_fetch']
-                ],
-                'error' => []
-            ];
-        } else {
-            return $msg;
-        }
-    }
     public function reportpost(DoiTuong $doituong)
     {
         $exist = $this->read('scammers', [

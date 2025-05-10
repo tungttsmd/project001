@@ -8,4 +8,9 @@ class controller
         $view = "views/$render_view.php";
         include "views/layouts/layout-" . (string) $render_layout . ".php";
     }
+    public function header(string $controller, string $action)
+    {
+        header("location: " .  mvchref($controller, $action));
+        exit;
+    }
 }

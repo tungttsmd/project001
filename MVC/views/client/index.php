@@ -9,7 +9,7 @@
     <!-- end: search bar -->
 
 
-    <?php if ($html->searchResult ?? false) { ?>
+    <?php if ($html ?? false) { ?>
         <!-- start: search list -->
         <div class="row dashboard-index border rounded p-3">
             <div class="col-12 mt-3">

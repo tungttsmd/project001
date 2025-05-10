@@ -61,11 +61,11 @@ class DBCRUD extends DBStatement
             $sql = "UPDATE ?t SET ?d WHERE ?w";
 
             # executive
-            $this->prep($sql);
-            $this->bind([$table], '?t');
-            $this->bind($data, '?d');
-            $this->bind($where, '?w');
-            return $this->exec()['data']['affected_rows'];
+            return $this->prep($sql)
+                ->bind([$table], '?t')
+                ->bind($data, '?d')
+                ->bind($where, '?w')
+                ->exec()['data']['affected_rows'];
         } catch (Exception $e) {
             throw new Exception("Exception [" . __CLASS__ . "->" . __FUNCTION__ . "] - CRUD thất bại: " . $e->getMessage());
         }

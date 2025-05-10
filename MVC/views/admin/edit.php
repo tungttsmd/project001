@@ -8,7 +8,6 @@
                 <strong class="d-flex gap-3 align-items-center"><?= $msg ?? '...' ?></strong>
             </div>
         <?php } ?>
-
         <div class="mb-2 d-flex justify-content-between">
             <p>Số ID: <b><?= htmlspecialchars($data->id ?? '') ?></b></p>
             <p> Ngày báo cáo: <?= htmlspecialchars($data->create_date ?? '') ?></p>

@@ -3,10 +3,10 @@ class clientcontroller extends controller
 {
     public function index()
     {
-        $list = oopstd([]);
-        $html = oopstd([]);
-        Clientcore::index_listDraw($list, $html);
-        $this->render('client/index', ['data' => $list, 'html' => $html], 2);
+        $data = ClientService::make()
+            ->index_search();
+
+        $this->render('client/index', $data, 2);
     }
     public function detail()
     {
