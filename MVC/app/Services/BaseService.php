@@ -5,6 +5,7 @@ trait BaseService
     {
         return new self();
     }
+
     public function success($result, string $message = 'successful API (default message)', array $merge_result = [])
     {
         return [

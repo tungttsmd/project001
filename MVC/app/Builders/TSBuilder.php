@@ -11,7 +11,7 @@ class TSBuilder extends TableStructure
     # init
     public function keyConvertInit()
     {
-        foreach ($this->columns() as $value) {
+        foreach ($this->tscolumns() as $value) {
             $this->fields[$value] = null;
         };
     }

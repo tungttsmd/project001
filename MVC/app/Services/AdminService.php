@@ -109,6 +109,7 @@ class AdminService
             ->set('id',  $data->id)
             ->set('create_date', $data->create_date)
             ->build();
+            
         $repo = AdminRepository::make()
             ->putById($data->id, $record->all());
         return [

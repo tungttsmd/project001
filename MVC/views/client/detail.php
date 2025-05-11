@@ -7,14 +7,14 @@
     <!-- start: search bar -->
     <?php include 'widget/widget-search-bar.php'; ?>
     <!-- end: search bar -->
-
+     
     <div class="rating-summary">
         <?php if (isset($msg, $color) && $msg) { ?>
             <div class="rounded p-2 alert alert-<?= $color ?? 'primary' ?>" role="alert">
                 <strong><?= $msg ?? '...' ?></strong>
             </div>
         <?php } ?>
-        <p class="border rounded text-align-left d-flex justify-content-between"><b>Thống kê về STK: <span style="color: red"><?= $data->account_number ?? null ?></span></b><span><?= $data->account_name ?? null ?>, tố cáo ngày <?=$data->create_date?></span></p>
+        <p class="border rounded text-align-left d-flex justify-content-between"><b>Thống kê về STK: <span style="color: red"><?= $data->account_number ?? null ?></span></b><span><?= $data->account_name ?? null ?>, tố cáo ngày <?= $data->create_date ?></span></p>
         <div class="row">
             <div class="col-6 stats justify-content-start gap-3">
                 <div class="border rounded p-3"><strong>Hôm nay</strong><br><span class="count">1</span><br>lượt tìm kiếm</div>

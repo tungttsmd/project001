@@ -65,65 +65,7 @@ class Client extends DBCRUD
             ];
         }
     }
-    public function detailpost(DoiTuong $doituong)
-    {
-        $sql = "SELECT * FROM `scammers` WHERE `id` = ?v";
-        $result = $this->prep($sql)
-            ->bind([$doituong->id()], '?v')
-            ->exec()['data'];
-        $data = $result['query_data_fetch'];
-        $count = $result['query_row_count'];
 
-        if (empty($data)) {
-            return [
-                'error' => [
-                    'message' => 'Không tìm thấy ID người này',
-                    'path' => __FUNCTION__,
-                    'extensions' => [
-                        'code' => 'ID_NOT_FOUND'
-                    ],
-                ],
-                'data' => []
-            ];
-        } else {
-            return [
-                'data' => [
-                    'status' => 'success',
-                    'message' => 'Tìm thấy ' . $count . ' kết quả',
-                    'query' => $data
-                ],
-                'error' => []
-            ];
-        }
-    }
-
-    public function KiemTraTen(DoiTuong $doituong)
-    {
-        $flag = true;
-        $msg = '';
-        $name = $doituong->name();
-        if (empty($name)) {
-            $flag = false;
-            $msg = "Dữ liệu không được rỗng!";
-        }
-
-        if ($flag) {
-            $sql = "SELECT * FROM `scammers` WHERE `account_name` LIKE ?v";
-            $result = $this->prep($sql)
-                ->bind(['%' . $name . '%'], '?v')
-                ->exec()['data'];
-            return [
-                'data' => [
-                    'status' => 'success',
-                    'message' => 'Tìm thấy ' . $result['query_row_count'] . ' kết quả',
-                    'query' => $result['query_data_fetch']
-                ],
-                'error' => []
-            ];
-        } else {
-            return $msg;
-        }
-    }
     public function baoCao(DoiTuong $doituong)
     {
         $flag = true;

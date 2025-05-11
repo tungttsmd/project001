@@ -14,12 +14,12 @@ class TableStructure extends DBCRUD
         $sql = "DESCRIBE `$this->tableName`";
         return $this->prep($sql)->exec()['data']['query_data_fetch'];
     }
-    protected function count()
+    protected function tscount()
     {
         # return column count of table
         return count($this->ts());
     }
-    protected function columns()
+    protected function tscolumns()
     {
         # return all column name of table
         return array_map(function ($value) {

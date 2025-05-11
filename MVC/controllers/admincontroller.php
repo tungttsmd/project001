@@ -22,7 +22,6 @@ class admincontroller extends controller
     }
     public function detail()
     {
-
         $response = oopstd(AdminService::make()
             ->detail_getByID());
 
@@ -39,10 +38,6 @@ class admincontroller extends controller
     }
     public function edit()
     {
-        $recordId = RecordBuilder::make()
-            ->set('id', $_GET['id'] ?? null)
-            ->build();
-
         $service = AdminService::make()
             ->detail_getByID();
 
@@ -53,7 +48,6 @@ class admincontroller extends controller
         if (isset($response->error)) {
             $flag = false;
         }
-
 
         if ($flag) {
             $data = oopstd($service)->data->data->result;
@@ -72,20 +66,21 @@ class admincontroller extends controller
             $this->header('admin', 'list');
         }
     }
+
     public function report()
     {
-        $color = 'warning';
-        $msg = null;
-        $data = null;
-        Clientcore::report_dataSave($data, $msg, $color);
-        # UX - redraw data inputed
-        $this->render('client/report', ['msg' => $msg, 'color' => $color, 'data' => $data], 1);
+        // $color = 'warning';
+        // $msg = null;
+        // $data = null;
+        // Clientcore::report_dataSave($data, $msg, $color);
+        // # UX - redraw data inputed
+        // $this->render('client/report', ['msg' => $msg, 'color' => $color, 'data' => $data], 1);
     }
     public function search()
     {
-        $list = oopstd([]);
-        $html = oopstd([]);
-        Clientcore::index_listDraw($list, $html);
-        $this->render('client/index', ['data' => $list, 'html' => $html], 1);
+        // $list = oopstd([]);
+        // $html = oopstd([]);
+        // Clientcore::index_listDraw($list, $html);
+        // $this->render('client/index', ['data' => $list, 'html' => $html], 1);
     }
 }

@@ -10,4 +10,8 @@ class ClientRepository extends TableRepository
     {
         return $this->belike($inputNumberKeyword, 'account_number');
     }
+    public function detail($id)
+    {
+        return $this->getById($id);
+    }
 }

@@ -42,4 +42,25 @@ class ClientService
       'html' => $response->indexHtml ?? null,
     ];
   }
+  public function detail_getById()
+  {
+    $record = RecordBuilder::make()
+      ->set('id', $_GET['id'])
+      ->build();
+
+    $repo = ClientRepository::make()
+      ->detail($record->id);
+
+    $flag = true;
+
+    if (empty($repo)) {
+      $flag = false;
+    }
+
+    if ($flag) {
+      return $this->success(oopstd($repo)->{'0'});
+    } else {
+      return $this->error('ID_NOT_FOUND', 'Không tìm thấy ID người này', ['result' => null]);
+    }
+  }
 }

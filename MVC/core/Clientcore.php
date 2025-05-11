@@ -1,34 +1,6 @@
 <?php
 class Clientcore
 {
-    static function index_listDraw(&$list, &$drawAllow)
-    {
-      
-    }
-    static function detail_idFetch(&$data, &$msg, &$color)
-    {
-        if (!isset($_GET['id'])) {
-            header("location: " . mvchref('client', 'index'));
-            exit;
-        }
-        if (isset($_GET['id'])) {
-            $clientSearch = new Client();
-            $clientId = new DoiTuong(null, null, null, null, null, null, $_GET['id']);
-            $clientDetail = $clientSearch->detailpost($clientId);
-            $fetchDetail = oopstd($clientDetail);
-            if (isset($fetchDetail->error->extensions->code) && $fetchDetail->error->extensions->code === 'ID_NOT_FOUND') {
-                $detailMsg = $fetchDetail->error->message;
-                $detailColor = "danger";
-            } else {
-                $detailData = $fetchDetail->data->query->{'0'};
-            }
-        }
-
-        # return
-        $data = $detailData ?? null;
-        $msg = $detailMsg ?? null;
-        $color = $detailColor ?? null;
-    }
     static function report_dataSave(&$data, &$msg, &$color)
     {
         # access this action by which method?
